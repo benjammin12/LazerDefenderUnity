@@ -19,6 +19,8 @@ public float speedY = 50.0f;
         	transform.position = new Vector3 (transform.position.x , -5.4f);
         else if( transform.position.x < -12.45f)
         	transform.position = new Vector3 (-12.45f , transform.position.y); 
+        else if(transform.position.x > -8.5f)
+        	transform.position = new Vector3(-8.5f, transform.position.y);
         
      }
 }
