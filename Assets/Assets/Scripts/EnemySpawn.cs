@@ -8,9 +8,14 @@ public class EnemySpawn : MonoBehaviour {
 	public GameObject Enemy;
 
 	void Start () {
-		Instantiate(Enemy, new Vector3(0,0,0), transform.rotation);
-		//Enemy.transform.rotation;
-		print("Enemy spawned");
+		int numEnemies = 0;
+
+		foreach (Transform child in transform){ //for every child of the transform 
+			Instantiate(Enemy, child.transform.position, transform.rotation);//enemy , of the child transform, is created at transform position w/ original rotation
+			numEnemies++;
+		}
+		print (numEnemies);
+		
 	}
 	
 

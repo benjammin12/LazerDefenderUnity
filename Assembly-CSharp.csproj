@@ -49,6 +49,7 @@
      <Compile Include="Assets\Assets\Scripts\EnemySpawn.cs" />
      <Compile Include="Assets\Assets\Scripts\IntroMusic.cs" />
      <Compile Include="Assets\Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Assets\Scripts\Position.cs" />
      <Compile Include="Assets\Assets\Scripts\ShipControl.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
